@@ -1,0 +1,581 @@
+
+
+<!doctype html>
+<html lang="af" class="no-js">
+  <head>
+    <meta charset="utf-8">
+      <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Homebrew Guide - Homebrew Guide</title>
+
+
+
+
+<meta name="description" content="Gidse aan homebrew voltooi en  Pasgemaakte firmware vir verskeie toestelle.">
+
+
+
+
+<meta name="author" content="Multimegamander">
+
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Homebrew Guide">
+<meta property="og:title" content="Homebrew gids">
+
+
+  <link rel="canonical" href="https://multimegamander.github.io/">
+  <meta property="og:url" content="https://multimegamander.github.io/">
+
+
+
+  <meta property="og:description" content="Gidse aan homebrew voltooi en  Pasgemaakte firmware vir verskeie toestelle.">
+
+
+
+
+
+  
+
+  
+
+
+
+  <meta property="og:image" content="https://multimegamander.github.io/images/home-page-feature.jpg">
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Multimegamander",
+      "url" : "https://multimegamander.github.io",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://multimegamander.github.io/Ps4-Guide/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+    <script type="text/javascript">
+        var host = "multimegamander.github.io";
+        if ((host == window.location.host) && (window.location.protocol != "https:"))
+            window.location.protocol = "https";
+    </script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <ul class="visible-links">
+          
+
+                        <li class="masthead__menu-item masthead__menu-item--lg"><a href="index.html">Tuisblad</a></li>
+                        
+                        
+                        
+                        <li class="masthead__menu-item"><a href="credits.html">Erkennings</a></li>
+                        
+                        
+                        
+                        <li class="masthead__menu-item"><a href="donations.html">Skenkings</a></li>
+                        
+                        
+                        
+                        <li class="masthead__menu-item"><a href="help.html">Hulp (onmin)</a></li>
+          
+                                  
+                        <li class="masthead__menu-item"><a href="miner.html">Mine Monero</a></li>
+
+          
+        </ul>
+        <ul class="hidden-links links-menu hidden"></ul>
+        <ul class="hidden-links lang-menu hidden">
+          
+          
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/"><img src=https://Multimegamander.github.io/images/flags/us.png> English</a></li> 
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/es_ES/"><img src=https://Multimegamander.github.io/images/flags/es.png> Español</a></li>
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/de_DE/"><img src=https://Multimegamander.github.io/images/flags/de.png> Deutsch</a></li>
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/fr_FR/"><img src=https://Multimegamander.github.io/images/flags/fr.png> Français</a></li>
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/it_IT/"><img src=https://Multimegamander.github.io/images/flags/it.png> Italiano</a></li>
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/nl_NL/"><img src=https://Multimegamander.github.io/images/flags/nl.png> Nederlands</a></li>
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/pt_BR/"><img src=https://Multimegamander.github.io/images/flags/br.png> Português do Brasil</a></li>
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/pt_PT/"><img src=https://Multimegamander.github.io/images/flags/pt.png> Português (Portugal)</a></li>
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/ru_RU/"><img src=https://Multimegamander.github.io/images/flags/ru.png> Русский</a></li>
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/zh_CN/"><img src=https://Multimegamander.github.io/images/flags/cn.png> 简体中文</a></li> 
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/zh_TW/"><img src=https://Multimegamander.github.io/images/flags/tw.png> 繁體中文</a></li> 
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/pl_PL/"><img src=https://Multimegamander.github.io/images/flags/pl.png> Polski</a></li> 
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/tr_TR/"><img src=https://Multimegamander.github.io/images/flags/tr.png> Türkçe</a></li> 
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/vi_VN/"><img src=https://Multimegamander.github.io/images/flags/vn.png> Tiếng Việt</a></li> 
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/ca_ES/"><img src=https://Multimegamander.github.io/images/flags/ca_ES.png> Català</a></li> 
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/el_GR/"><img src=https://Multimegamander.github.io/images/flags/gr.png> Ελληνικά</a></li> 
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/he_IL/"><img src=https://Multimegamander.github.io/images/flags/il.png> עברית‎</a></li> 
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/sv_SE/"><img src=https://Multimegamander.github.io/images/flags/se.png> Svenska</a></li> 
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/ko_KR/"><img src=https://Multimegamander.github.io/images/flags/kr.png> 한국어</a></li> 
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/no_NO/"><img src=https://Multimegamander.github.io/images/flags/no.png> Norsk</a></li> 
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/ja_JP/"><img src=https://Multimegamander.github.io/images/flags/jp.png> 日本語</a></li> 
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/ar_SA/"><img src=https://Multimegamander.github.io/images/flags/ar.png> اللغة العربية</a></li> 
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/hu_HU/"><img src=https://Multimegamander.github.io/images/flags/hu.png> Magyar</a></li> 
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/ro_RO/"><img src=https://Multimegamander.github.io/images/flags/ro.png> Română</a></li> 
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/sr_SP/"><img src=https://Multimegamander.github.io/images/flags/sr.png> Српски</a></li> 
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/af_ZA/"><img src=https://Multimegamander.github.io/images/flags/za.png> Afrikaans</a></li>
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/ms_MY/"><img src=https://Multimegamander.github.io/images/flags/my.png> Bahasa Melayu</a></li>
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/fi_FI/"><img src=https://Multimegamander.github.io/images/flags/fi.png> Suomi</a></li>
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/da_DK/"><img src=https://Multimegamander.github.io/images/flags/dk.png> Dansk</a></li>
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/uk_UA/"><img src=https://Multimegamander.github.io/images/flags/ua.png> Українська</a></li>
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/cs_CZ/"><img src=https://Multimegamander.github.io/images/flags/cz.png> Čeština</a></li>
+          <li class="masthead__menu-item"><a href="https://multimegamander.github.io/en_PT/"><img src= https://multimegamander.github.io/images/flags/ptr.png> Pirate English</a></li>
+          <li class="masthead__menu-item"><a href="https://crowdin.com/project/homebrew-guide/">Click here to help translate this site</a></li>
+
+        </ul>
+        <button class="navsel"><div class="navicon"></div></button>
+        <button class="langsel"><div class="langicon"><i class="fa fa-language fa-2x" aria-hidden="true"></i></div></button>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style="background-color: #5e616c; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://multimegamander.github.io/images/home-page-feature.jpg');"
+>
+  
+    <div class="wrapper">
+      <h1 class="page__title" itemprop="headline">
+        
+          Homebrew gids
+
+        
+      </h1>
+      
+        <p class="page__lead">Gidse aan homebrew voltooi en <br /> Pasgemaakte firmware vir verskeie toestelle.<br />
+</p>
+      
+      
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Homebrew Guide">
+    <meta itemprop="description" content="Gidse aan homebrew voltooi en  Pasgemaakte firmware vir verskeie toestelle.">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      
+<div class="feature__wrapper">
+
+  
+
+    
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          
+            <a href="/Switch-Guide/">
+          
+          <div class="archive__item-teaser">
+            <img src="https://multimegamander.github.io/images/switch.jpg" alt="" />
+          </div>
+          
+            </a>
+          
+        
+
+        <div class="archive__item-body">
+          
+            
+              <a href="/Switch-Guide/">
+            
+            <h2 class="archive__item-title">Skakelaar Homebrew gids</h2>
+            
+              </a>
+            
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>'N volledige gids tot skakelaar homebrew en homebrew ontwikkeling.</p>
+
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  
+
+    
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          
+            <a href="/3DS-Guide/">
+          
+          <div class="archive__item-teaser">
+            <img src="https://multimegamander.github.io/images/3ds.jpg" alt="" />
+          </div>
+          
+            </a>
+          
+        
+
+        <div class="archive__item-body">
+          
+            
+              <a href="/3DS-Guide/">
+            
+            <h2 class="archive__item-title">3DS Homebrew gids</h2>
+            
+              </a>
+            
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>'N volledige gids tot kleinhandel 3DS pasgemaakte firmware, van voorraad te boot9strap.</p>
+
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  
+
+    
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          
+            <a href="/Wii-U-Guide/">
+          
+          <div class="archive__item-teaser">
+            <img src="https://multimegamander.github.io/images/wiiu.jpg" alt="" />
+          </div>
+          
+            </a>
+          
+        
+
+        <div class="archive__item-body">
+          
+            
+              <a href="/Wii-U-Guide/">
+            
+            <h2 class="archive__item-title">Wii U Homebrew gids</h2>
+            
+              </a>
+            
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>'N volledige gids tot Wii U pasgemaakte firmware, uit voorraad aan Coldboot Haxchi.</p>
+
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  
+
+    
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          
+            <a href="/Panda-Guide/">
+          
+          <div class="archive__item-teaser">
+            <img src="https://multimegamander.github.io/images/panda.jpg" alt="" />
+          </div>
+          
+            </a>
+          
+        
+
+        <div class="archive__item-body">
+          
+            
+              <a href="/Panda-Guide/">
+            
+            <h2 class="archive__item-title">3DS Homebrew gids</h2>
+            
+              </a>
+            
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>'N volledige gids tot Panda (ontwikkelaar) 3DS pasgemaakte firmware, van voorraad te boot9strap.</p>
+
+            </div>
+          
+        </div>
+      </div>
+    </div>
+    
+
+    
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          
+            <a href="/Wii-Guide/">
+          
+          <div class="archive__item-teaser">
+            <img src="https://multimegamander.github.io/images/wii.jpg" alt="" />
+          </div>
+          
+            </a>
+          
+        
+
+        <div class="archive__item-body">
+          
+            
+              <a href="/Wii-Guide/">
+            
+            <h2 class="archive__item-title">Wii Homebrew gids</h2>
+            
+              </a>
+            
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>'N gids om jou te kry begin met modding jou Wii.</p>
+
+            </div>
+          
+        </div>
+      </div>
+    </div>
+    
+
+    
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          
+            <a href="/Ps4-Guide/">
+          
+          <div class="archive__item-teaser">
+            <img src="https://multimegamander.github.io/images/ps4.jpg" alt="" />
+          </div>
+          
+            </a>
+          
+        
+
+        <div class="archive__item-body">
+          
+            
+              <a href="/Ps4-Guide/">
+            
+            <h2 class="archive__item-title">Ps4 Homebrew gids</h2>
+            
+              </a>
+            
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>'N gids om jou te kry begin met modding jou Ps4.</p>
+
+            </div>
+          
+        </div>
+      </div>
+    </div>
+    
+
+    
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          
+            <a href="/Ps3-Guide/">
+          
+          <div class="archive__item-teaser">
+            <img src="https://multimegamander.github.io/images/ps3.png" alt="" />
+          </div>
+          
+            </a>
+          
+        
+
+        <div class="archive__item-body">
+          
+            
+              <a href="/Ps3-Guide/">
+            
+            <h2 class="archive__item-title">Ps3 Homebrew gids</h2>
+            
+              </a>
+            
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>'N volledige gids tot Ps3 pasgemaakte firmware, van voorraad te Rebug</p>
+
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  
+
+    
+
+
+
+    
+
+
+
+    
+
+
+</div>
+
+    </section>
+  </article>
+</div>
+
+
+<!--footer--> 
+    <div class="page__footer">
+      <footer>
+
+         <h5 class="social"><a href="https://paypal.me/Multimegamander"><i class="fab fa-paypal fa-2x"></i></a></span>
+   ‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍　 ‍‍           
+         <span class="social"><a href="https://github.com/Multimegamander/multimegamander.github.io/"><i class="fab fa-github fa-2x "></i></a> 
+‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍　           
+   ‍‍ 
+            <a href="https://discord.gg/e9SufnW"><i class="fab fa-discord fa-2x"></i></a></span> </h5>
+              
+    <hr>
+       <h5 <div class="page_footer-copyright">&copy; 2018 <a href="https://github.com/Multimegamander"> Multimegamander</a></h5>
+    </hr> <style type="text/css">
+            .social { float: right; }
+          </style>
+      </footer>
+        </div> 
+
+    
+  <script src="https://hacks.guide/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
